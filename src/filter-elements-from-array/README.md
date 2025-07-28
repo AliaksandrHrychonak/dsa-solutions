@@ -10,8 +10,6 @@ filteredArr should only contain the elements from the arr for which the expressi
 
 Please solve it without the built-in Array.filter method.
 
-
-
 Example 1:
 
 Input: arr = [0,10,20,30], fn = function greaterThan10(n) { return n > 10; }
@@ -66,7 +64,6 @@ We use a for loop to examine each element of the input array:
 for(let i = 0; i < arr.length; i++) {
   // ...
 }
-
 ```
 
 ### 4. Apply the Filter Condition
