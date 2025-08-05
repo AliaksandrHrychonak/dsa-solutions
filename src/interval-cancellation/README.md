@@ -159,7 +159,3 @@ const cancelTimeMs = 190
 const cancel = cancellable(fn, args, t)
 setTimeout(cancel, cancelTimeMs)
 ```
-
-
-
-
