@@ -143,6 +143,7 @@ setInterval(() => { fn(...args) }, t)  // Repeated calls
 ```
 1. Important Details:
 
+
 - First call happens at time 0
 - Interval starts counting after first call
 - `clearInterval` stops all future calls
